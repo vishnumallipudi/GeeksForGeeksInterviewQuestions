@@ -10,15 +10,8 @@ namespace Arrays
     {
         static void Main(string[] args)
         {
-            
-            //int ncases = int.Parse(Console.ReadLine());
-            //var result = (Console.ReadLine()).Split(null);
-            int[] a =new int[] { 0,1,2,1,0,0,0,1,0};
-            var result=a.SorrtArrayZOT();
-            foreach (var item in a)
-            {
-                Console.WriteLine(item);
-            }
+            int[] a =new int[] { 1,2,3,4,0 };
+            a.LeadersInArray();
             
             Console.ReadLine();
 
